@@ -1,0 +1,148 @@
+2022-04-26 09:15:58,076 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2022-04-26 09:18:56,646 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/software/amazon/awssdk/archetype-app-quickstart/2.17.176/archetype-app-quickstart-2.17.176.jar
+2022-04-26 09:19:19,231 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.jar
+2022-04-26 09:19:24,312 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.jar
+2022-04-26 09:19:29,302 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.pom
+2022-04-26 09:19:36,740 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.pom
+2022-04-26 09:20:02,588 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Workspace\FirstProject\pom.xml
+2022-04-26 09:20:07,636 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+2022-04-26 09:20:13,372 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+2022-04-26 09:20:20,003 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.jar
+2022-04-26 09:20:27,268 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.jar
+2022-04-26 09:20:31,301 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
+2022-04-26 09:20:37,929 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
+2022-04-26 09:20:42,011 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.jar
+2022-04-26 09:20:50,207 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.jar
+2022-04-26 09:20:55,323 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-site-plugin/3.7.1/maven-site-plugin-3.7.1.jar
+2022-04-26 09:21:01,571 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-site-plugin/3.7.1/maven-site-plugin-3.7.1.jar
+2022-04-26 09:21:06,254 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.pom
+2022-04-26 09:21:13,323 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.pom
+2022-04-26 09:21:17,904 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-plugins/32/maven-plugins-32.pom
+2022-04-26 09:21:21,505 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-plugins/32/maven-plugins-32.pom
+2022-04-26 09:21:27,394 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/maven-parent/32/maven-parent-32.pom
+2022-04-26 09:21:36,731 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/maven-parent/32/maven-parent-32.pom
+2022-04-26 09:21:43,550 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/apache/20/apache-20.pom
+2022-04-26 09:21:48,219 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/apache/20/apache-20.pom
+2022-04-26 09:21:50,748 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FirstProject:FirstProject:0.0.1-SNAPSHOT @ C:\Workspace\FirstProject\pom.xml.
+2022-04-26 09:21:58,364 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom
+2022-04-26 09:21:58,521 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/junit/junit/4.11/junit-4.11-sources.jar
+2022-04-26 09:22:03,203 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom
+2022-04-26 09:22:06,265 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/junit/junit/4.11/junit-4.11-sources.jar
+2022-04-26 09:22:06,270 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.11
+2022-04-26 09:22:06,872 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+2022-04-26 09:22:10,280 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+2022-04-26 09:22:13,292 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2022-04-26 09:22:16,946 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+2022-04-26 09:22:19,593 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2022-04-26 09:22:19,597 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2022-04-26 09:22:24,511 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+2022-04-26 09:22:24,911 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FirstProject/src/main/java
+2022-04-26 09:22:24,921 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FirstProject/src/test/java
+2022-04-26 09:22:25,266 [Worker-11: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 142 sec
+2022-04-26 09:22:26,181 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 09:22:26,182 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Workspace\FirstProject\src\main\resources
+2022-04-26 09:22:26,184 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 09:22:26,184 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Workspace\FirstProject\src\test\resources
+2022-04-26 09:27:43,372 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-26 09:36:04,789 [Worker-51: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FirstProject:FirstProject:0.0.1-SNAPSHOT @ C:\Workspace\FirstProject\pom.xml.
+2022-04-26 09:36:04,910 [Worker-51: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.pom
+2022-04-26 09:36:04,932 [Worker-51: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/io/cucumber/gherkin/4.1.3/gherkin-4.1.3.pom
+2022-04-26 09:36:04,947 [Worker-51: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/io/cucumber/cucumber-core/4.3.1/cucumber-core-4.3.1.pom
+2022-04-26 09:36:04,957 [Worker-51: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/io/cucumber/cucumber-junit/4.3.1/cucumber-junit-4.3.1.pom
+2022-04-26 09:36:04,963 [Worker-51: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/io/cucumber/cucumber-java/4.3.1/cucumber-java-4.3.1.pom
+2022-04-26 09:36:07,730 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 09:36:07,731 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Workspace\FirstProject\src\main\resources
+2022-04-26 09:36:07,736 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 09:36:07,736 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Workspace\FirstProject\src\test\resources
+2022-04-26 09:36:09,195 [Worker-32: https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/org.eclipse.e4.ui.services.source_1.5.0.v20210115-1333.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {s}->https://ftp.jaist.ac.jp:443
+2022-04-26 09:36:10,023 [Worker-48: https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/org.eclipse.e4.ui.widgets.source_1.3.0.v20210621-1136.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {s}->https://ftp.jaist.ac.jp:443
+2022-04-26 09:36:14,150 [Worker-41: https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/org.eclipse.emf.codegen.ecore_2.29.0.v20211216-0741.jar.pack.gz] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {s}->https://ftp.jaist.ac.jp:443
+2022-04-26 09:36:15,020 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://tools-nexus.maerskdev.net/repository/maven-group-public/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59-sources.jar
+2022-04-26 09:36:20,009 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59-sources.jar
+2022-04-26 09:36:20,376 [Worker-43: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-java:3.141.59
+2022-04-26 09:36:28,534 [Worker-50: https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/features/org.eclipse.emf.mapping_2.14.0.v20210924-1718.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {s}->https://ftp.jaist.ac.jp:443
+2022-04-26 09:37:16,549 [Worker-35: https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/org.eclipse.pde.ua.core.source_1.2.300.v20211004-0555.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {s}->https://ftp.jaist.ac.jp:443
+2022-04-26 09:37:21,435 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/io/cucumber/gherkin/4.1.3/gherkin-4.1.3-sources.jar
+2022-04-26 09:37:21,443 [Worker-43: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for io.cucumber:gherkin:4.1.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact io.cucumber:gherkin:jar:sources:4.1.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-26 09:37:28,071 [Worker-37: https://ftp.jaist.ac.jp/pub/eclipse/releases/2022-03/202203161000/plugins/org.eclipse.text.quicksearch.source_1.1.300.v20211203-1705.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {s}->https://ftp.jaist.ac.jp:443
+2022-04-26 09:38:22,609 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/io/cucumber/cucumber-core/4.3.1/cucumber-core-4.3.1-sources.jar
+2022-04-26 09:38:22,614 [Worker-43: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for io.cucumber:cucumber-core:4.3.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact io.cucumber:cucumber-core:jar:sources:4.3.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-26 09:39:23,820 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/io/cucumber/cucumber-junit/4.3.1/cucumber-junit-4.3.1-sources.jar
+2022-04-26 09:39:23,824 [Worker-43: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for io.cucumber:cucumber-junit:4.3.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact io.cucumber:cucumber-junit:jar:sources:4.3.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-26 09:40:24,924 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://tools-nexus.maerskdev.net/repository/maven-group-public/io/cucumber/cucumber-java/4.3.1/cucumber-java-4.3.1-sources.jar
+2022-04-26 09:40:24,929 [Worker-43: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for io.cucumber:cucumber-java:4.3.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact io.cucumber:cucumber-java:jar:sources:4.3.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-26 09:40:25,180 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 09:40:25,180 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Workspace\FirstProject\src\main\resources
+2022-04-26 09:40:25,184 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
