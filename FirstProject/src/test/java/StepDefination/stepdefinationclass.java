@@ -16,6 +16,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 public class stepdefinationclass {
 	
@@ -66,17 +67,22 @@ public class stepdefinationclass {
 	@When("Created coupons")
 	public void couponCreation() throws InterruptedException {
 		driver.findElement(By.xpath("//*[@id='menu-marketing']/a")).click();
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id='menu-marketing']/ul/li[3]")).click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
+		WebElement element = driver.findElement(By.xpath("//*[@id='menu-marketing']/ul/li[3]"));
+		/*JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", element);*/
+		element.click();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//*[@data-original-title='Add New']")).click();
 
 		driver.findElement(By.id("input-name")).sendKeys(uniqueString);
 		driver.findElement(By.id("input-code")).sendKeys(uniqueID);
 		Thread.sleep(7000);
-		WebElement element = driver.findElement(By.xpath("//button[@type='submit']"));
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-		element.click();
+		WebElement element1 = driver.findElement(By.xpath("//button[@type='submit']"));
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element1);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		Thread.sleep(3000);
+		element1.click();
 		Thread.sleep(5000);
 
 
@@ -94,8 +100,10 @@ public class stepdefinationclass {
 
 			if (elementString.contains("SharmilaHandson"))
 				Thread.sleep(7000);
-				i.click();
-			Thread.sleep(7000);
+			//table[@class='table table-bordered table-hover']/tbody/tr/td[@class='text-right'][2]
+		driver.findElement(By.xpath("/table[@class='table table-bordered table-hover']/tbody/tr/td[@class='text-right'][2]")).click();
+
+				Thread.sleep(7000);
 			driver.findElement(By.id("input-code")).sendKeys(uniqueID);
 			WebElement element1 = driver.findElement(By.xpath("//*[@data-original-title='Save']"));
 			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element1);
