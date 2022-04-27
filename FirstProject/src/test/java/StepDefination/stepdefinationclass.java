@@ -12,12 +12,21 @@ import cucumber.api.java.en.When;
 import hooks.hooksclass;
 import junit.framework.Assert;
 
+import java.util.Iterator;
+import java.util.List;
+import java.util.Random;
 import java.util.UUID;
 
 public class stepdefinationclass {
 	
 	
 	WebDriver driver = hooksclass.driver;
+	String uniqueString1 = UUID.randomUUID().toString();
+	String uniqueString=uniqueString1+"SharmilaHandson";
+	Random rnd = new Random();
+	int number = rnd.nextInt(999999);
+	String uniqueID= String.format("%06d", number);
+
 	
 
 
@@ -61,21 +70,53 @@ public class stepdefinationclass {
 		driver.findElement(By.xpath("//*[@id='menu-marketing']/ul/li[3]")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@data-original-title='Add New']")).click();
-		String uniqueString = UUID.randomUUID().toString();
+
 		driver.findElement(By.id("input-name")).sendKeys(uniqueString);
-		driver.findElement(By.id("input-code")).sendKeys("1234");
-		WebElement element = driver.findElement(By.xpath("//*[@data-original-title='Save']"));
+		driver.findElement(By.id("input-code")).sendKeys(uniqueID);
+		Thread.sleep(7000);
+		WebElement element = driver.findElement(By.xpath("//button[@type='submit']"));
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		element.click();
 		Thread.sleep(5000);
 
 
+	}
+	@Then("validate the Coupon & Edit the coupon")
+	public void couponCreationValidation() throws InterruptedException {
+		 List<WebElement> element = driver.findElements(By.xpath("//table[@class='table table-bordered table-hover']/tbody/tr/td[@class='text-left']"));
+		Iterator<WebElement> itr = element.iterator();
+		while (itr.hasNext()) {
 
+			WebElement i = itr.next();
+			System.out.print(i + "Next element");
+			String elementString=i.getText();
+
+
+			if (elementString.contains("SharmilaHandson"))
+				Thread.sleep(7000);
+				i.click();
+			Thread.sleep(7000);
+			driver.findElement(By.id("input-code")).sendKeys(uniqueID);
+			WebElement element1 = driver.findElement(By.xpath("//*[@data-original-title='Save']"));
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element1);
+			Thread.sleep(5000);
+			element1.click();
+				itr.remove();
+		}
+
+	}
+	@Then("Delete the coupon")
+	public void DeleteCoupon() {
+		List<WebElement> element = driver.findElements(By.xpath("//*[@id='form-coupon']/div/table/tbody"));
+		for(int i=0; i<=element.size();i++){
+			if(driver.findElement(By.xpath("//td[ends-with(text(),'"+"SharmilaHandson"+"')])")).getText().contains("SharmilaHandson")) {
+				driver.findElement(By.xpath("//td[ends-with(text(),'"+"SharmilaHandson"+"')]/parent::tr/td[1]/input[1]")).click();
+
+			}
+			}
 
 
 	}
-
-
-
 
 
 
