@@ -25,8 +25,10 @@ public class stepdefinationclass {
 	String uniqueString1 = UUID.randomUUID().toString();
 	String uniqueString=uniqueString1+"SharmilaHandson";
 	Random rnd = new Random();
-	int number = rnd.nextInt(999999);
-	String uniqueID= String.format("%06d", number);
+	int number = rnd.nextInt(59);
+	String uniqueID= String.format("%02d", number)+"01267";
+	String uniqueIDUpdated= String.format("%02d", number)+"01268";
+
 
 	
 
@@ -76,7 +78,10 @@ public class stepdefinationclass {
 		driver.findElement(By.xpath("//*[@data-original-title='Add New']")).click();
 
 		driver.findElement(By.id("input-name")).sendKeys(uniqueString);
-		driver.findElement(By.id("input-code")).sendKeys(uniqueID);
+		Thread.sleep(4000);
+		driver.findElement(By.id("input-code")).clear();
+		Thread.sleep(2000);
+		driver.findElement(By.id("input-code"))	.sendKeys(uniqueID);
 		Thread.sleep(7000);
 		WebElement element1 = driver.findElement(By.xpath("//button[@type='submit']"));
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element1);
@@ -87,7 +92,7 @@ public class stepdefinationclass {
 
 
 	}
-	@Then("validate the Coupon & Edit the coupon")
+	@Then("validate the Coupon ,Edit  the coupon")
 	public void couponCreationValidation() throws InterruptedException {
 		 List<WebElement> element = driver.findElements(By.xpath("//table[@class='table table-bordered table-hover']/tbody/tr/td[@class='text-left']"));
 		Iterator<WebElement> itr = element.iterator();
@@ -100,31 +105,47 @@ public class stepdefinationclass {
 
 			if (elementString.contains("SharmilaHandson"))
 				Thread.sleep(7000);
-			//table[@class='table table-bordered table-hover']/tbody/tr/td[@class='text-right'][2]
-		driver.findElement(By.xpath("/table[@class='table table-bordered table-hover']/tbody/tr/td[@class='text-right'][2]")).click();
+			driver.findElement(By.xpath("//table[@class='table table-bordered table-hover']/tbody/tr/td[@class='text-right'][2]")).click();
 
 				Thread.sleep(7000);
-			driver.findElement(By.id("input-code")).sendKeys(uniqueID);
-			WebElement element1 = driver.findElement(By.xpath("//*[@data-original-title='Save']"));
+			driver.findElement(By.id("input-code")).clear();
+			driver.findElement(By.id("input-code"))	.sendKeys(uniqueIDUpdated);
+			WebElement element1 = driver.findElement(By.xpath("//button[@type='submit']"));
 			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element1);
-			Thread.sleep(5000);
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			Thread.sleep(3000);
 			element1.click();
-				itr.remove();
+			Thread.sleep(5000);
+			break;
+
+
 		}
 
 	}
-	@Then("Delete the coupon")
-	public void DeleteCoupon() {
-		List<WebElement> element = driver.findElements(By.xpath("//*[@id='form-coupon']/div/table/tbody"));
-		for(int i=0; i<=element.size();i++){
-			if(driver.findElement(By.xpath("//td[ends-with(text(),'"+"SharmilaHandson"+"')])")).getText().contains("SharmilaHandson")) {
-				driver.findElement(By.xpath("//td[ends-with(text(),'"+"SharmilaHandson"+"')]/parent::tr/td[1]/input[1]")).click();
+	@Then("Delete Coupon")
+	public void DeleteCoupon() throws InterruptedException {
+		List<WebElement> element = driver.findElements(By.xpath("//table[@class='table table-bordered table-hover']/tbody/tr/td[@class='text-left']"));
+		Iterator<WebElement> itr = element.iterator();
+		while (itr.hasNext()) {
 
-			}
-			}
+			WebElement i = itr.next();
+			System.out.print(i + "Next element");
+			String elementString=i.getText();
 
+
+			if (elementString.contains("SharmilaHandson")){
+				driver.findElement(By.xpath("(//button[@type='button'])[1]")).click();
+				Thread.sleep(5000);
+				driver.switchTo( ).alert( ).accept();
+				Thread.sleep(5000);
+				break;
+
+
+
+			}}
 
 	}
+
 
 
 

@@ -7,8 +7,9 @@ Feature: Signin feature
     And Enter Username "<username>" and password "<password>"
     When user is navigated successfully to the  Home page
     And Created coupons
-    Then validate the Coupon & Edit the coupon
-    #And Delete the coupon
+    Then validate the Coupon ,Edit  the coupon
+    And Delete Coupon
+
 
 
     Examples:
